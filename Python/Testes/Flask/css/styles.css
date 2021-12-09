@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root {
+    --cor_bg: #b0dddb;
+    --cor_h1: #001aff;
+    --cor_h2: #5654a8;
+    --cor_header: #9c43c5;
+    --cor_main: #ffffff;
+    --cor_footer: #6d156d;
+    --cor_p: #000000;
+}
+
+body {
+    background: var(--cor_bg);
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+header {
+    background: var(--cor_header);
+    padding: 10px;
+}
+
+main {
+    background-color: var(--cor_main);
+    padding: 10px;
+}
+
+h1 {
+    color: var(--cor_h1);
+}
+
+h2 {
+    color: var(--cor_h2);
+}
+
+p {
+    color: var(--cor_p);
+}
+
+footer {
+    background-color: var(--cor_footer);
+    padding: 10px;
+}
+
+
+
